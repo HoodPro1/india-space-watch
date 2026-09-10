@@ -16,19 +16,28 @@ export const SATELLITE_LIST = [
     tle2: "2 44804  97.4228 312.6750 0010586 215.1782 144.8755 15.19184608376221"
   },
   {
-    id: 'gsat30',
-    name: 'GSAT-30',
-    type: 'Communications (Indian)',
-    purpose: "ISRO geostationary satellite providing telecommunication services across India and Asia.",
-    tle1: "1 45026U 20005A   26252.10309149 -.00000186  00000+0  00000+0 0  9992",
-    tle2: "2 45026   0.0095 150.5004 0001723 336.7845 341.0083  1.00270088 24356"
-  },
-  {
     id: 'cartosat2c',
     name: 'Cartosat-2C',
     type: 'Earth Observation (Indian)',
     purpose: "ISRO imaging satellite supporting cartography, disaster response, and coastal monitoring.",
     tle1: "1 41599U 16040A   26252.16905015  .00005051  00000+0  24274-3 0  9995",
     tle2: "2 41599  97.4414 310.9517 0008580 192.6800 167.4220 15.19237672566464"
-  }
+  },
+  
+  {
+    id: 'pslvdeb',
+    name: 'PSLV Debris',
+    type: 'Debris (Indian rocket fragment)',
+    purpose: 'Fragment from a 2001 Indian PSLV launch — real, currently tracked orbital debris, not an active satellite.',
+    tle1: "1 27653U 01049NQ  26245.41650934  .00001121  00000+0  11939-3 0  9998",
+    tle2: "2 27653  98.0775 308.3554 0049643 235.3674 124.2857 14.90207867300809"
+  },
+  {
+    id: 'pslvrb',
+    name: 'PSLV Rocket Body',
+    type: 'Debris (Indian rocket body)',
+    purpose: 'Spent rocket stage from a 1999 Indian PSLV launch, still in orbit as tracked debris.',
+    tle1: "1 25759U 99029D   26243.11181038  .00000139  00000-0  42924-4 0  9995",
+    tle2: "2 25759  98.6088 281.0673 0027039  22.9765 337.2634 14.55865183446163"
+  },
 ];

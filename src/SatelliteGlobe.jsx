@@ -28,7 +28,7 @@ function SatelliteGlobe() {
       pointLat="lat"
       pointLng="lng"
       pointAltitude={d => Math.min(d.alt / 6371, 1)}
-      pointColor={() => '#4a9eff'}
+      pointColor={() => '#e63333'}
       pointLabel="name"
       pointRadius={0.4}
       width={800}
